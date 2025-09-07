@@ -27,5 +27,9 @@ El objetivo inicial no es explorar todos los estados funcionales, sino establece
 
 ---
 
+Para consultar más a profundidad sobre los pasos o decisiones tomadas a lo largo de la implementación del Trabajo de Grado consultar: /docs
+
+---
+
 ✍️ *Este README será actualizado a medida que avance el proyecto y se incorporen resultados, nuevos análisis y mejoras en el pipeline.*
 
