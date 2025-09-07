@@ -1,4 +1,4 @@
-# Documento de Decisión – Día 3
+# Documento de Decisión
 
 ## Estrategia de modelado
 Se seguirá una estrategia **progresiva** en el modelado de la hemoglobina (HbA):
