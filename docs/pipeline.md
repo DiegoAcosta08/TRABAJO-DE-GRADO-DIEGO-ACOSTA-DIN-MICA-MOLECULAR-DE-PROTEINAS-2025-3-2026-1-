@@ -9,8 +9,8 @@ Este documento describe el flujo de trabajo adoptado para el modelado y simulaci
 
 ## 2. Descarga de estructuras de referencia
 - Selección de PDBs experimentales:
-  - Desoxi Hb: `2HHB`
-  - Oxi Hb: `1A3N`
+  - Desoxi Hb: `2HHB`, Desoxi Hb:`1A3N`
+  - Oxi Hb: `1HH0`
 
 ## 3. Preparación estructural
 - Limpieza de las cadenas α y β.
