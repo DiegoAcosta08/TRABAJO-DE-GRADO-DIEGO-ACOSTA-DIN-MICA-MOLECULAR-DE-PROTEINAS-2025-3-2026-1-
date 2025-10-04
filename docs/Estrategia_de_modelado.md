@@ -18,7 +18,7 @@ Se utilizará la fuerza de campo **CHARMM36m**, recomendada para simulaciones de
 
 ## Representación del grupo hemo (HEM)
 Se adopta la **Opción A: mantener el HEM original del archivo PDB**.  
-Esto permite conservar la geometría y coordinación del hierro ya definida experimentalmente en las estructuras cristalográficas de referencia (PDB 2HHB y 1A3N).
+Esto permite conservar la geometría y coordinación del hierro ya definida experimentalmente en las estructuras cristalográficas de referencia (PDB 2HHB y 1HHO).
 
 ---
 
