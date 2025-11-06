@@ -10,15 +10,15 @@ Este proyecto se centrará en la hemoglobina tetramérica humana (α₂β₂) en
 El objetivo inicial es establecer un protocolo sólido de preparación, modelado y simulación bajo condiciones controladas.
 
 ## Documentación
-- 📄 [Pipeline de modelado](docs/pipeline.md): pasos detallados de preparación, simulación y análisis.
-- 📄 Documentos de decisiones: `docs/decision.md`.
+📄 [Documentación del Proyecto](docs/index.md): Pipeline, decisiones y estrategia de modelado.
 
-## Estructura del repositorio
-- `/data`: secuencias FASTA y PDBs de referencia.
-- `/docs`: documentación del pipeline y decisiones del proyecto.
-- (A futuro) `/scripts`, `/results`.
+## Estructura del Repositorio
+- `/project`: Directorio principal que contiene todos los archivos del proyecto.
+  - `/data/raw`: Datos crudos como secuencias FASTA y PDBs de referencia.
+  - `/src`: Scripts para preparación, simulación y análisis.
+  - `/results`: Resultados generados por las simulaciones y análisis.
+- `/docs`: Documentación detallada del pipeline y decisiones del proyecto.
 
 ---
 
 ✍ *Este README será actualizado conforme avance el proyecto.*
-
