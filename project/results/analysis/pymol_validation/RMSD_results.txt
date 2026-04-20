@@ -1,0 +1,53 @@
+===============================================================================================
+VALIDACIÓN ESTRUCTURAL - RMSD GLOBAL Y TM-SCORE
+Fecha: 2026-04-20
+Software: PyMOL Open-Source + TM-align v20220412
+Método RMSD PyMOL: align con outlier rejection iterativo (5 ciclos)
+Método RMSD TM-align: calculado sobre todos los residuos alineados
+Método TM-score: TM-align, normalizado por longitud de estructura de referencia
+===============================================================================================
+
+CADENA ALPHA (HBA1)
+Modelo AF2: HBA1_monomer_338a3_unrelaxed_rank_001_alphafold2_ptm_model_4_seed_000.pdb
+pLDDT rank_001: 97.4 | pTM: 0.913
+
+Referencia       RMSD_PyMOL(Å)  Átomos  RMSD_TMalign(Å)  TM-score  Seq_ID
+2HHB cadena A    0.436          922     0.45             0.990     1.000
+1HHO cadena A    0.479          875     0.66             0.985     1.000
+1A3N cadena A    0.400          924     0.41             0.992     1.000
+
+-----------------------------------------------------------------------------------------------
+
+CADENA BETA (HBB)
+Modelo AF2: HBB_monomer_639b6_0_unrelaxed_rank_001_alphafold2_ptm_model_5_seed_000.pdb
+pLDDT rank_001: 97.2 | pTM: 0.907
+
+Referencia       RMSD_PyMOL(Å)  Átomos  RMSD_TMalign(Å)  TM-score  Seq_ID
+2HHB cadena B    0.499          943     0.64             0.985     0.993
+1HHO cadena B    0.660          882     0.91             0.969     0.993
+1A3N cadena B    0.515          956     0.53             0.987     1.000
+
+===============================================================================================
+NOTA METODOLÓGICA:
+RMSD_PyMOL usa outlier rejection iterativo — descarta átomos muy
+divergentes en cada ciclo, reportando el RMSD del núcleo conservado.
+RMSD_TMalign se calcula sobre todos los residuos alineados sin
+exclusión, por eso tiende a ser igual o mayor que RMSD_PyMOL.
+Ambos valores son complementarios y consistentes entre sí.
+
+REFERENCIAS CRISTALOGRÁFICAS:
+- 2HHB: desoxihemoglobina, resolución 1.74 Å (Fermi et al., 1984)
+- 1HHO: oxihemoglobina, resolución 2.1 Å
+- 1A3N: desoxihemoglobina, resolución alta (1998)
+
+REFERENCIAS SOFTWARE:
+- PyMOL: DeLano, W.L. (2002). The PyMOL Molecular Graphics System.
+- TM-align: Zhang & Skolnick, Nucleic Acids Res 33, 2302-9 (2005)
+- ColabFold: Mirdita et al., Nature Methods 19, 679-682 (2022)
+- AlphaFold2: Jumper et al., Nature 596, 583-589 (2021)
+
+CONCLUSIÓN:
+Todos los RMSD_PyMOL < 0.7 Å, RMSD_TMalign < 1 Å y TM-scores > 0.96
+confirman que AF2 reproduce la topología global de ambos monómeros
+con alta fidelidad estructural.
+===============================================================================================
